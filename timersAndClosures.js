@@ -23,3 +23,8 @@ let secondCounter = createCounter();
 secondCounter(); // 1
 secondCounter(); // 2
 secondCounter(); // 3
+
+let thirdCounter = createCounter();
+thirdCounter(); // 1
+thirdCounter(); // 2
+thirdCounter(); // 3
