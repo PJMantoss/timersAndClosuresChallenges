@@ -14,5 +14,7 @@ function createCounter(){
     }
 }
 
-let counterOne = createCounter();
-counterOne(); // 1
+let firstCounter = createCounter();
+firstCounter(); // 1
+firstCounter(); // 2
+firstCounter(); // 3
