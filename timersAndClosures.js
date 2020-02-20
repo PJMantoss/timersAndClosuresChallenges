@@ -9,4 +9,7 @@ and they should all have their own private variable called count.
 */
 function createCounter(){
     let count = 0;
+    return function addToCounter(){
+        return ++count;
+    }
 }
