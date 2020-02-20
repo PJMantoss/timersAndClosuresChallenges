@@ -14,4 +14,5 @@ function createCounter(){
     }
 }
 
-createCounter();
+let counterOne = createCounter();
+counterOne(); // 1
