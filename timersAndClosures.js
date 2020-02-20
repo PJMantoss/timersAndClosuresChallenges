@@ -13,3 +13,5 @@ function createCounter(){
         return ++count;
     }
 }
+
+createCounter();
