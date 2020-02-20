@@ -7,3 +7,6 @@ increments the counter by 1 and returns the count variable.
 You should be able to create multiple counters with the createCounter function 
 and they should all have their own private variable called count.
 */
+function createCounter(){
+    let count = 0;
+}
