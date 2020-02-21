@@ -143,3 +143,11 @@ find([8,11,4,27], function(val){return val >= 10});
 Write a function called findIndex. It should take in an array and a callback and
  return the index of first value found in the array that matches the condition.
 */
+
+function findIndex(arr, fn){
+    for (let i=0; i<arr.length; i++){
+        if(fn(arr[i]) === true){
+            return i;
+        }
+    }
+}
