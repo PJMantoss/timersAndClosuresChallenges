@@ -172,3 +172,6 @@ function specialMultiply(x,y){
     }
     return x * y;
 }
+
+//test
+specialMultiply(3,4); // 12
