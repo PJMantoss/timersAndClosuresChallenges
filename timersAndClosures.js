@@ -28,3 +28,9 @@ let thirdCounter = createCounter();
 thirdCounter(); // 1
 thirdCounter(); // 2
 thirdCounter(); // 3
+
+/*Ex.2
+Write a function called countdown that accepts a number as a parameter and
+every 1000 milliseconds decrements the value and console.logs it. 
+Once the value is 0 it should log "DONE!" and stop.
+*/
