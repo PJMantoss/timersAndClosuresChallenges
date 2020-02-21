@@ -36,11 +36,12 @@ Once the value is 0 it should log "DONE!" and stop.
 */
 
 function countdown(num){
-    setInterval(function(){
-        if (num === 0){
-            console.log('DONE!')
-        }else {
-            console.log(--num)
+    timerId = setInterval(function(){
+        if (num <= 0){
+            console.log('DONE!');
+            clearInterval(timerId);
+        }else{
+            console.log(--num);
         }
     }, 1000);
 }
