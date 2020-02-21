@@ -35,4 +35,12 @@ every 1000 milliseconds decrements the value and console.logs it.
 Once the value is 0 it should log "DONE!" and stop.
 */
 
-function countdown(num){}
+function countdown(num){
+    setInterval(function(){
+        if (num === 0){
+            console.log('DONE!')
+        }else {
+            console.log(--num)
+        }
+    }, 1000);
+}
