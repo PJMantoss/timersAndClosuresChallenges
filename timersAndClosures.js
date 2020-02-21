@@ -99,3 +99,9 @@ function isOdd(num){
 };
 //test
 isOdd(8); // false
+
+/*Ex. 6
+Write a function called isPrime which takes in a number and 
+returns true if the number is a prime number (is greater than 1 and 
+    can only be divided in whole by itself and 1), otherwise returns false
+*/
