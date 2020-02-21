@@ -114,3 +114,8 @@ function isPrime(num){
   }
 
 isPrime(8);//false
+
+/*Ex. 7
+Write a function called numberFact which takes in a number and
+ a callback and returns the result of the callback with the number passed to it
+*/
