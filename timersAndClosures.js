@@ -57,12 +57,14 @@ Write a function called randomGame that selects a random number
 return the number of tries it took before we found a number greater than .75
 */
 function randomGame(){
-    let counter = Math.random();
+    let counter = 0;
     let timerId = setInterval(function(){
-        if (counter > .75){
+        let num = Math.random();
+        if (num > .75){
+            console.log(counter);
             clearInterval(timerId);
         } else {
-            console.log(counter += 1)
+            console.log("It took " + counter++ + " tries");
         }
     }, 1000);
 }
