@@ -90,3 +90,12 @@ isEven(8);
 Write a function called isOdd which takes in a number and 
 returns true if the number is odd and returns false if it is not
 */
+function isOdd(num){
+    if(num % 2 !== 0){
+        return true;
+    } else {
+        return false;
+    }
+};
+//test
+isOdd(8); // false
