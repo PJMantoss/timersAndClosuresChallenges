@@ -45,3 +45,7 @@ function countdown(num){
         }
     }, 1000);
 }
+
+
+//test
+countdown(4); // 3,2,1, 'DONE!'
