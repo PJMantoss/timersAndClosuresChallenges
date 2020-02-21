@@ -138,3 +138,8 @@ function find(arr, fn) {
 }
 //test
 find([8,11,4,27], function(val){return val >= 10});
+
+/*Ex. 9
+Write a function called findIndex. It should take in an array and a callback and
+ return the index of first value found in the array that matches the condition.
+*/
