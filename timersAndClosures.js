@@ -85,3 +85,8 @@ function isEven(num){
 };
 //test
 isEven(8);
+
+/*Ex. 5
+Write a function called isOdd which takes in a number and 
+returns true if the number is odd and returns false if it is not
+*/
