@@ -162,3 +162,13 @@ If the function is only passed one parameter - it should return a function which
 passed another parameter to return the product. 
 You will have to use closure and arguments to solve this.
 */
+
+function specialMultiply(x,y){
+
+    if (arguments.length === 1){
+        return function fn(y) {
+            return x * y;
+        }
+    }
+    return x * y;
+}
