@@ -68,3 +68,6 @@ function randomGame(){
         }
     }, 1000);
 }
+
+//test
+randomGame();
