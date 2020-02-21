@@ -129,3 +129,12 @@ numberFact(50, isOdd); //false
 Write a function called find. It should take in an array and 
 a callback and return the first value found in the array that matches the condition.
 */
+function find(arr, fn) {
+    for (let i=0; i<arr.length; i++){
+        if (fn(arr[i])){
+            return arr[i]
+        }
+    }
+}
+//test
+find([8,11,4,27], function(val){return val >= 10});
