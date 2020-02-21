@@ -124,3 +124,8 @@ function numberFact(num, fn){
 }
 //test
 numberFact(50, isOdd); //false
+
+/*Ex. 8
+Write a function called find. It should take in an array and 
+a callback and return the first value found in the array that matches the condition.
+*/
