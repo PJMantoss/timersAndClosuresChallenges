@@ -56,3 +56,6 @@ Write a function called randomGame that selects a random number
   is picked, add 1 to a counter. If the number is greater than .75, stop the timer and
 return the number of tries it took before we found a number greater than .75
 */
+function randomGame(){
+    let counter = Math.random();
+}
