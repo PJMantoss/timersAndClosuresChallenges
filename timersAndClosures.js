@@ -105,3 +105,12 @@ Write a function called isPrime which takes in a number and
 returns true if the number is a prime number (is greater than 1 and 
     can only be divided in whole by itself and 1), otherwise returns false
 */
+function isPrime(num){
+    for(let i = 2; i < num; i++)
+      if(num % i === 0){
+        return false;
+      } 
+    return num > 1;
+  }
+
+isPrime(8);//false
