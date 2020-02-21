@@ -58,4 +58,11 @@ return the number of tries it took before we found a number greater than .75
 */
 function randomGame(){
     let counter = Math.random();
+    let timerId = setInterval(function(){
+        if (counter > .75){
+            clearInterval(timerId);
+        } else {
+            console.log(counter += 1)
+        }
+    }, 1000);
 }
