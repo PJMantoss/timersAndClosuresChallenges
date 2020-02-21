@@ -76,4 +76,12 @@ randomGame();
 Write a function called isEven which takes in a number and 
 returns true if the number is even and returns false if it is not
 */
-function isEven(){};
+function isEven(num){
+    if(num % 2 === 0){
+        return true;
+    } else {
+        return false;
+    }
+};
+//test
+isEven(8);
