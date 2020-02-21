@@ -71,3 +71,8 @@ function randomGame(){
 
 //test
 randomGame();
+
+/*Ex. 4
+Write a function called isEven which takes in a number and 
+returns true if the number is even and returns false if it is not
+*/
