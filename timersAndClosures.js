@@ -151,3 +151,6 @@ function findIndex(arr, fn){
         }
     }
 }
+
+//test
+findIndex([8,11,4,27], function(val){return val >= 10}); // 1
